@@ -1,0 +1,21 @@
+site_name: PCD Vibes
+theme:
+  name: material
+  palette: 
+    - scheme: slate      # Deep dark mode
+      primary: deep purple 
+      accent: cyan
+  features:
+    - navigation.tabs    # Top-level menu tabs
+    - search.suggest     # Smart search bar
+    - content.code.copy  # Button to copy your AI scripts
+
+nav:
+  - Home: index.md
+  - Compute Scripts: 
+    - Overview: compute/index.md
+    - Node Prep: compute/node-prep.md
+  - Extensions:
+    - Overview: extensions/index.md
+    - PCD Console Helper: extensions/pcd-console-helper.md
+  - About the AI: about.md
